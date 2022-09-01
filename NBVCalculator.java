@@ -40,7 +40,7 @@ public class NBVCalculator {
     nbv = C.getNBV(cost,deprec);
     
     //Printing the results
-    System.out.println(" | Months | "+" | Dep Value | "+" | Dep| "+" | NBV | ");
+    System.out.println(" | Months"+" | Dep Value"+" | Dep"+" | NBV ");
     System.out.println(" | "+1+" | "+f.format(cost)+" | "+f.format(deprec)+" | "+f.format(nbv)+" | ");
     
     
